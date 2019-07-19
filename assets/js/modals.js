@@ -1,0 +1,150 @@
+//Modal Declarations
+var iModal = document.getElementById("iModal");
+var sModal = document.getElementById("sModal");
+var tModal = document.getElementById("tModal");
+var uModal = document.getElementById("uModal");
+var vModal = document.getElementById("vModal");
+var wModal = document.getElementById("wModal");
+var xModal = document.getElementById("xModal");
+var osModal = document.getElementById("osModal");
+var hydroModal = document.getElementById("hydroModal");
+
+//Anchor Declarations
+var s = document.getElementById("first-slide");
+var t = document.getElementById("second-slide");
+var u = document.getElementById("third-slide");
+var v = document.getElementById("fourth-slide");
+var w = document.getElementById("fifth-slide");
+var x = document.getElementById("sixth-slide");
+var os = document.getElementById("seventh-slide");
+var hydro = document.getElementById("hyrdo");
+
+//Navigation Modals
+s.onclick = function () {
+    "use strict";
+    iModal.style.display = "none";
+    sModal.style.display = "block";
+    tModal.style.display = "none";
+    uModal.style.display = "none";
+    vModal.style.display = "none";
+    wModal.style.display = "none";
+    xModal.style.display = "none";
+    osModal.style.display = "none";
+    s.style.fontWeight = "bold";
+    t.style.fontWeight = "normal";
+    u.style.fontWeight = "normal";
+    v.style.fontWeight = "normal";
+    w.style.fontWeight = "normal";
+    x.style.fontWeight = "normal";
+    os.style.fontWeight = "normal";
+};
+t.onclick = function () {
+    "use strict";
+    iModal.style.display = "none";
+    sModal.style.display = "none";
+    tModal.style.display = "block";
+    uModal.style.display = "none";
+    vModal.style.display = "none";
+    wModal.style.display = "none";
+    xModal.style.display = "none";
+    osModal.style.display = "none";
+    s.style.fontWeight = "normal";
+    t.style.fontWeight = "bold";
+    u.style.fontWeight = "normal";
+    v.style.fontWeight = "normal";
+    w.style.fontWeight = "normal";
+    x.style.fontWeight = "normal";
+    os.style.fontWeight = "normal";
+};
+u.onclick = function () {
+    "use strict";
+    iModal.style.display = "none";
+    sModal.style.display = "none";
+    tModal.style.display = "none";
+    uModal.style.display = "block";
+    vModal.style.display = "none";
+    wModal.style.display = "none";
+    xModal.style.display = "none";
+    osModal.style.display = "none";
+    s.style.fontWeight = "normal";
+    t.style.fontWeight = "normal";
+    u.style.fontWeight = "bold";
+    v.style.fontWeight = "normal";
+    w.style.fontWeight = "normal";
+    x.style.fontWeight = "normal";
+    os.style.fontWeight = "normal";
+};
+v.onclick = function () {
+    "use strict";
+    iModal.style.display = "none";
+    sModal.style.display = "none";
+    tModal.style.display = "none";
+    uModal.style.display = "none";
+    vModal.style.display = "block";
+    wModal.style.display = "none";
+    xModal.style.display = "none";
+    osModal.style.display = "none";
+    s.style.fontWeight = "normal";
+    t.style.fontWeight = "normal";
+    u.style.fontWeight = "normal";
+    v.style.fontWeight = "bold";
+    w.style.fontWeight = "normal";
+    x.style.fontWeight = "normal";
+    os.style.fontWeight = "normal";
+};
+w.onclick = function () {
+    "use strict";
+    iModal.style.display = "none";
+    sModal.style.display = "none";
+    tModal.style.display = "none";
+    uModal.style.display = "none";
+    vModal.style.display = "none";
+    wModal.style.display = "block";
+    xModal.style.display = "none";
+    osModal.style.display = "none";
+    s.style.fontWeight = "normal";
+    t.style.fontWeight = "normal";
+    u.style.fontWeight = "normal";
+    v.style.fontWeight = "normal";
+    w.style.fontWeight = "bold";
+    x.style.fontWeight = "normal";
+    os.style.fontWeight = "normal";
+};
+x.onclick = function () {
+    "use strict";
+    iModal.style.display = "none";
+    sModal.style.display = "none";
+    tModal.style.display = "none";
+    uModal.style.display = "none";
+    vModal.style.display = "none";
+    wModal.style.display = "none";
+    xModal.style.display = "block";
+    osModal.style.display = "none";
+    s.style.fontWeight = "normal";
+    t.style.fontWeight = "normal";
+    u.style.fontWeight = "normal";
+    v.style.fontWeight = "normal";
+    w.style.fontWeight = "normal";
+    x.style.fontWeight = "bold";
+    os.style.fontWeight = "normal";
+};
+os.onclick = function () {
+    "use strict";
+    iModal.style.display = "none";
+    sModal.style.display = "none";
+    tModal.style.display = "none";
+    uModal.style.display = "none";
+    vModal.style.display = "none";
+    wModal.style.display = "none";
+    xModal.style.display = "none";
+    osModal.style.display = "block";
+    s.style.fontWeight = "normal";
+    t.style.fontWeight = "normal";
+    u.style.fontWeight = "normal";
+    v.style.fontWeight = "normal";
+    w.style.fontWeight = "normal";
+    x.style.fontWeight = "normal";
+    os.style.fontWeight = "bold";
+};
+
+//Other Modals
